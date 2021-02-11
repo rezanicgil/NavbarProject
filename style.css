@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    margin-top: -20px;
+    background-color: rgb(237, 248, 197);
+}
+
+.container {
+    position: fixed;
+    cursor: pointer;
+    display: inline;
+    right: 2%;
+    top: 15px;
+   }
+
+  @media screen and (max-width: 850px) {
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 4px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+  align-items: center;
+
+}
+
+  }
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+#list{
+    list-style: none;
+    font-size: 15px;
+   
+
+}
+
+div.dropdown{
+    position:fixed;
+    height: 1px;
+    visibility: hidden;
+    left: 100%;
+    margin-left: -363.2px;
+    padding-left: 0px;
+    width:340px ;
+    height: 150px;
+    top: 45px;
+    
+}
+
+
+
+li{
+ 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 18px;
+   text-align: center;
+   width: 300px;
+ 
+  background-color: rgb(231, 231, 231);
+
+  
+}
+li#home:hover,li#about:hover,li#contact:hover,li#blog:hover,li#other:hover{
+    
+    background-color: rgb(138, 127, 206);
+   font-size: 21px;
+   letter-spacing: 1px;
+    cursor: pointer;
+    
+   
+  }
+
+li#home, li#contact , li#about, li#blog, li#other{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-left: 1px solid rgb(179, 179, 179);
+    border-right: 1px solid  rgb(179, 179, 179);
+  
+}
+li#home{
+    border-top: 0px solid  rgb(179, 179, 179);
+   
+}
+li#other{
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+#home-link,#about-link,#contact-link,#blog-link,#other-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#logo{
+    position: relative;
+    display: inline;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    float: left;
+    padding-top: 0px;
+    
+   
+}
+
+.menubar{
+    margin: 0;
+    top: 0;
+    position: sticky;
+    background-color: rgb(29, 20, 105);
+    width: 100%;
+    height: 60px;
+    padding-top: 0px;
+}
+
+#liste2{
+position: relative;
+display: inline;
+list-style: none;
+padding-right: 40px;
+color: white;
+background: none;
+left: 50px;
+cursor: pointer;
+top: 20px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#liste2:hover{
+color: rgb(255, 155, 5);
+
+letter-spacing: 2px;
+}
+
+@media screen and (max-width: 850px) {
+    #liste2 {
+      visibility: hidden;
+    }
+  }
+
+  #social-media{
+    position: relative;
+    display: inline;
+    float: right;
+    top: -20px;
+    
+    right: 2%;
+    color: rgb(255, 255, 255);
+    font-size:25px;
+
+  }
+  #github,#linkedin{
+   
+    margin-right: 10px;
+  }
+  #github:hover,#linkedin:hover{
+   
+    font-size: 27px;
+    color: rgb(255, 155, 5);
+    cursor: pointer;
+  }
+
+  @media screen and (max-width : 850px)
+  {
+    #social-media{
+      visibility: hidden;
+    }
+  }
+
+#links{
+  text-decoration: none;
+  color: white;
+}
